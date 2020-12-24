@@ -32,12 +32,9 @@ jobs:
           # Literal body:
           body: Build job of ${{github.repository}} completed successfully!
           # Read file contents as body:
-          to: vivek.rajyaguru@volansys.com
+          to: vivek.rajyaguru.dev@gmail.com
           from: Tejas Chauhan # <user@example.com>
           # Optional carbon copy recipients
-          cc: tejas.chauhan@volansys.com
-          # Optional blind carbon copy recipients
-          bcc: bindya.balvani@volansys.com
           # Optional content type (defaults to text/plain):
           content_type: text/html
           # Optional converting Markdown to HTML (set content_type to text/html too):
