@@ -24,7 +24,7 @@ jobs:
       - name: Send mail
         uses: dawidd6/action-send-mail@v2
         with:
-          server_address: https://mail.google.com/mail/u/0/
+          server_address: mail.google.com/mail
           server_port: 465
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
